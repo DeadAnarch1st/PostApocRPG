@@ -2,7 +2,7 @@
 draw_set_alpha(0.3);
 draw_set_color(c_black);
 
-with (all){
+with (all){ //Draw rectangle shadow with the size of the collision mask
  draw_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, 0);
 }
 

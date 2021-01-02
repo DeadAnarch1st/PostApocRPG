@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"69a75f9a-f731-49ef-8ffb-9552574b31fc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Objects",
+    "path": "folders/Sprites/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_box",

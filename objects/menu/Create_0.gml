@@ -17,7 +17,6 @@ enum menu_page {
 	main,
 	settings,
 	audio,
-	difficulty,
 	graphics, 
 	controls,
 	height
@@ -41,7 +40,6 @@ ds_menu_main = create_menu_page(
 
 ds_settings = create_menu_page(
 	["AUDIO",		menu_element_type.page_transfer,	menu_page.audio],
-	["DIFFICULTY",	menu_element_type.page_transfer,	menu_page.difficulty], 
 	["GRAPHICS",	menu_element_type.page_transfer,	menu_page.graphics], 
 	["CONTROLS",	menu_element_type.page_transfer,	menu_page.controls], 
 	["BACK",		menu_element_type.page_transfer,	menu_page.main],
@@ -51,12 +49,6 @@ ds_menu_audio = create_menu_page(
 	["MASTER",		menu_element_type.slider,			change_volume,			1,		[0,1]],
 	["SOUNDS",		menu_element_type.slider,			change_volume,			1,		[0,1]],
 	["MUSIC",		menu_element_type.slider,			change_volume,			1,		[0,1]],
-	["BACK",		menu_element_type.page_transfer,	menu_page.settings],
-);
-
-ds_menu_difficulty = create_menu_page(
-	["ENEMIES",		menu_element_type.shift,			change_difficulty,		0,		["HARMLESS","NORMAL", "TERRIBLE"]], 
-	["ALLIES",		menu_element_type.shift,			change_difficulty,		0,		["DIM-WITTED", "NORMAL", "HELPFUL"]],
 	["BACK",		menu_element_type.page_transfer,	menu_page.settings],
 );
 
@@ -75,7 +67,7 @@ ds_menu_controls = create_menu_page(
 );
 
 page = 0;
-menu_pages = [ds_menu_main, ds_settings, ds_menu_audio, ds_menu_difficulty, ds_menu_graphics, ds_menu_controls]
+menu_pages = [ds_menu_main, ds_settings, ds_menu_audio, ds_menu_graphics, ds_menu_controls]
 
 var i = 0, array_len = array_length_1d(menu_pages);
 repeat(array_len){

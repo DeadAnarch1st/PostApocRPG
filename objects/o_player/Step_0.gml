@@ -1,8 +1,11 @@
 /// @description 
 //Input
 var hor, ver;
-hor = (keyboard_check(ord("D")) || keyboard_check(vk_right))-(keyboard_check(ord("A")) || keyboard_check(vk_left));
-ver = (keyboard_check(ord("S")) || keyboard_check(vk_down))-(keyboard_check(ord("W")) || keyboard_check(vk_up));
+//hor = (keyboard_check(ord("D")) || keyboard_check(vk_right))-(keyboard_check(ord("A")) || keyboard_check(vk_left));
+//ver = (keyboard_check(ord("S")) || keyboard_check(vk_down))-(keyboard_check(ord("W")) || keyboard_check(vk_up));
+
+hor = (keyboard_check(ord("D"))) - (keyboard_check(ord("A")));
+ver = (keyboard_check(ord("S"))) - (keyboard_check(ord("W")));
 
 hsp = hor*moveSpeed;
 vsp = ver*moveSpeed;

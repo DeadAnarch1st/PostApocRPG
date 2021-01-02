@@ -12,7 +12,6 @@
     {"id":{"name":"o_shelter","path":"objects/o_shelter/o_shelter.yy",},"order":2,},
     {"id":{"name":"game_exit","path":"scripts/game_exit/game_exit.yy",},"order":4,},
     {"id":{"name":"change_volume","path":"scripts/change_volume/change_volume.yy",},"order":3,},
-    {"id":{"name":"change_difficulty","path":"scripts/change_difficulty/change_difficulty.yy",},"order":2,},
     {"id":{"name":"snd_snd_test","path":"sounds/snd_snd_test/snd_snd_test.yy",},"order":1,},
     {"id":{"name":"change_resolution","path":"scripts/change_resolution/change_resolution.yy",},"order":1,},
     {"id":{"name":"snd_msc_test","path":"sounds/snd_msc_test/snd_msc_test.yy",},"order":2,},
@@ -26,6 +25,7 @@
     {"id":{"name":"o_snowflake","path":"objects/o_snowflake/o_snowflake.yy",},"order":0,},
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},"order":0,},
     {"id":{"name":"s_box","path":"sprites/s_box/s_box.yy",},"order":0,},
+    {"id":{"name":"o_pause","path":"objects/o_pause/o_pause.yy",},"order":1,},
     {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},"order":1,},
   ],
   "Options": [

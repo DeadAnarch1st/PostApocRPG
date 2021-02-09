@@ -9,7 +9,6 @@
     {"id":{"name":"resume_game","path":"scripts/resume_game/resume_game.yy",},"order":5,},
     {"id":{"name":"s_snowflake","path":"sprites/s_snowflake/s_snowflake.yy",},"order":1,},
     {"id":{"name":"place_meeting_3d","path":"scripts/place_meeting_3d/place_meeting_3d.yy",},"order":0,},
-    {"id":{"name":"o_shelter","path":"objects/o_shelter/o_shelter.yy",},"order":2,},
     {"id":{"name":"game_exit","path":"scripts/game_exit/game_exit.yy",},"order":4,},
     {"id":{"name":"change_volume","path":"scripts/change_volume/change_volume.yy",},"order":3,},
     {"id":{"name":"snd_snd_test","path":"sounds/snd_snd_test/snd_snd_test.yy",},"order":1,},

@@ -1,7 +1,7 @@
 /// @description 
 //Movement
-moveSpeed = 4;
-jumpSpeed = 14;
+moveSpeed = 3;
+jumpSpeed = 10;
 gravSpeed = 1;
 
 //Vars

@@ -21,7 +21,7 @@ function place_meeting_3d() {
 	var zMeeting = false;
 
 	if (xyMeeting){
-	 zMeeting = rectangle_in_rectangle(0, xyMeeting.z, 1, xyMeeting.z - xyMeeting.height,
+		zMeeting = rectangle_in_rectangle(0, xyMeeting.z, 1, xyMeeting.z - xyMeeting.height,
 	            0, _z, 1, _z - height);
 	}
 
